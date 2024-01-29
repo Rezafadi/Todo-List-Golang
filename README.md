@@ -1,6 +1,6 @@
 # DOCUMENTATION
 
-### LIST
+### Listing
 
 **Starting**
 
