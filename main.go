@@ -41,7 +41,7 @@ func main() {
 	apiV1.POST("/sublist", subListController.Create)
 	apiV1.PUT("/sublist/:id", subListController.Update)
 	apiV1.DELETE("/sublist/:id", subListController.Delete)
-	
+
 	Automigrate(db)
 
 	route.Start(":8080")
